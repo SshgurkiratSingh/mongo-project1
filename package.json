@@ -1,6 +1,6 @@
 {
   "name": "mongo",
-  "version": "1.0.0",
+  "version": "1.1.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,16 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.8.2",
-    "nodemon": "^2.0.20"
-  }
+    "nodemon": "^2.0.20",
+    "text-encoding": "^0.7.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SshgurkiratSingh/mongo-project1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SshgurkiratSingh/mongo-project1/issues"
+  },
+  "homepage": "https://github.com/SshgurkiratSingh/mongo-project1#readme"
 }

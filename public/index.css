@@ -1,0 +1,46 @@
+body {
+    background-color: #333333; /* dark background color */
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .hello {
+    font-size: 3em;
+    animation: fadeIn 2s ease-in-out, colorChange 8s ease-in-out infinite;
+    color: #ffffff; /* white text color */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Change color */
+  @keyframes colorChange {
+    0% {
+      color: #ffffff; /* white */
+    }
+    25% {
+      color: #ff0000; /* red */
+    }
+    50% {
+      color: #00ff00; /* green */
+    }
+    75% {
+      color: #0000ff; /* blue */
+    }
+    100% {
+      color: #ffffff; /* white */
+    }
+  }
+  
