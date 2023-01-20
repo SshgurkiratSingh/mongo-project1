@@ -17,7 +17,6 @@
     "nodemon": "^2.0.20",
     "text-encoding": "^0.7.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SshgurkiratSingh/mongo-project1.git"
